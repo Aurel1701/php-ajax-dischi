@@ -1,3 +1,5 @@
+<!-- riprendo l'array di generi musicali tramite postman che ho utlizzato in vue-dischi
+ e lo salvo in un file dedicato -->
 <?php
 
 $discs = [

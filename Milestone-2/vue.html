@@ -19,18 +19,18 @@
     <!-- contenitore vue -->
     <div id="app">
         <header class="contain">
-            <div class="logo">
-                <img class="img-logo" src="./logo.png" alt="" />
+            <div class="logo" >
+                <img style="height: 100px;" class="img-logo" src="./logo.png" alt="" />
             </div>
         </header>
         <main class="container-fluid">
-            <div class=" d-flex ">
-                <div v-for="disc in discs">
+            <div class="container container-cards d-flex flex-wrap pt-5">
+                <div class="card text-center mb-3" v-for="disc in discs">
                     <div class='img'>
                         <img class='img-fluid' :src="disc.poster">
                     </div>
-                    <div class=''>
-                        <h4 class=''>{{disc.title}}</h4>
+                    <div class='text text-light'>
+                        <h4 class='text-uppercase fw-bold fs-6 mt-3'>{{disc.title}}</h4>
                         <p class=''>{{disc.author}}<br>
                             {{disc.year}}</p>
                     </div>

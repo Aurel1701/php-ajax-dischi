@@ -1,7 +1,7 @@
 <?php
 
 // importo data.php per chiamata api
-include "../Milestone-2/data.php";
+include "./data.php";
 
 // specifica che le informazioni inviate .json 
 header("Content-Type: application/json");

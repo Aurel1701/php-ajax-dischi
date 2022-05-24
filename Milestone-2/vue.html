@@ -12,6 +12,7 @@
     <!-- axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -24,21 +25,21 @@
         </header>
         <main class="container-fluid">
             <div class=" d-flex ">
-                <div class="" v-for="disc in discs">
+                <div v-for="disc in discs">
                     <div class='img'>
-                        <img class='img-fluid' :src="discs.poster">
+                        <img class='img-fluid' :src="disc.poster">
                     </div>
                     <div class=''>
-                        <h4 class=''>{{discs.title}}</h4>
-                        <p class=''>{{discs.author}}<br>
-                            {{discs.year}}</p>
+                        <h4 class=''>{{disc.title}}</h4>
+                        <p class=''>{{disc.author}}<br>
+                            {{disc.year}}</p>
                     </div>
                 </div>
             </div>
         </main>
     </div>
-    
-    <link rel="stylesheet" href="./app.js">
+
+    <script src="./app.js"></script>
 </body>
 
 </html>

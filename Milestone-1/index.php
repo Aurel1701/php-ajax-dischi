@@ -34,7 +34,7 @@ foreach ($discs as $discs) { ?>
             <img class="img-fluid" src="<?php echo $discs['poster'] ?>">
         </div>
         <div class='text text-light'>
-            <h5 class='text-uppercase fw-bold fs-6 mt-3'> <?php echo $discs['title'] ?></h5>
+            <h4 class='text-uppercase fw-bold fs-6 mt-3'> <?php echo $discs['title'] ?></h4>
             <p class='text-secondary'> <?php echo $discs['author'] ?><br>
             <?php echo $discs['year'] ?></p>
         </div>

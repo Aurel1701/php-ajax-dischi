@@ -7,9 +7,11 @@
     height: 70px;
     padding: 10px;
 }
+
 main{
     background-color: #1E2D3B;
 }
+
 .card{
-    width: calc(100% / 4);
+    width: calc(100% / 5);
 } 
